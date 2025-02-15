@@ -1,0 +1,32 @@
+
+/* табличная форма */
+.table-responsive {
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.thead-dark th {
+    background-color: var(--primary);
+    color: white;
+}
+
+#refreshData {
+    margin: 20px;
+    background-color: var(--primary);
+    border: none;
+}
+
+#refreshData:hover {
+    background-color: var(--primary-darken-1);
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    padding: 12px;
+}

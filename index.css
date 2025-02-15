@@ -1,0 +1,50 @@
+/* Заголовок страницы */
+.published-tasks {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+/* Главный планер */
+.daily-planner {
+    margin: 20px auto;
+    max-width: 900px;
+}
+.planner-entry {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.date-header {
+    background: var(--primary);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.task-container {
+    margin-bottom: 15px;
+}
+.task-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.task-number {
+    font-weight: bold;
+    color: var(--primary);
+    margin-right: 10px;
+}
+.task-input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+} 
